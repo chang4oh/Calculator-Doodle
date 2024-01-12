@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href ="images/favicon_doodle.png">
+	<script src="https://kit.fontawesome.com/12e4e78641.js" crossorigin="anonymous"></script>
+	<title>Doodle Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<p>Space</p>
+    <div id="calculator">
+        <input id="display" type="text" readonly>
+        <div id="keys">
+            <button onclick="appendToDisplay('+')" class="operator-btn"><i class="fa-brands fa-space-awesome"><br>+</i></button>
+            <button onclick="appendToDisplay('7')"><i class="fa-brands fa-space-awesome"><br>7</i></button>
+            <button onclick="appendToDisplay('8')"><i class="fa-brands fa-space-awesome"><br>8</i></button>
+            <button onclick="appendToDisplay('9')"><i class="fa-brands fa-space-awesome"><br>9</i></button>
+            <button onclick="appendToDisplay('-')" class="operator-btn"><i class="fa-brands fa-space-awesome"><br>-</i></button>
+            <button onclick="appendToDisplay('4')"><i class="fa-brands fa-space-awesome"><br>4</i></button>
+            <button onclick="appendToDisplay('5')"><i class="fa-brands fa-space-awesome"><br>5</i></button>
+            <button onclick="appendToDisplay('6')"><i class="fa-brands fa-space-awesome"><br>6</i></button>
+            <button onclick="appendToDisplay('*')" class="operator-btn"><i class="fa-brands fa-space-awesome"><br>*</i></button>
+            <button onclick="appendToDisplay('1')"><i class="fa-brands fa-space-awesome"><br>1</i></button>
+            <button onclick="appendToDisplay('2')"><i class="fa-brands fa-space-awesome"><br>2</i></button>
+            <button onclick="appendToDisplay('3')"><i class="fa-brands fa-space-awesome"><br>3</i></button>
+            <button onclick="appendToDisplay('/')" class="operator-btn"><i class="fa-brands fa-space-awesome"><br>/</i></button>
+            <button onclick="appendToDisplay('0')"><i class="fa-brands fa-space-awesome"><br>0</i></button>
+            <button onclick="appendToDisplay('.')"><i class="fa-brands fa-space-awesome"><br>.</i></button>
+            <button onclick="calculate()"><i class="fa-brands fa-space-awesome"><br>=</i></button>
+            <button onclick="clearDisplay()" class="operator-btn"><i class="fa-brands fa-space-awesome"><br>C</i></button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
