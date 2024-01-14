@@ -28,13 +28,6 @@ p{
     font-weight: bold;
     color: hsl(197, 58%, 33%);
 }
-.fa-space-awesome:hover{
-    color: hsla(197, 58%, 33%, 0.8);
-}
-.fa-space-awesome:active{
-    font-size: 3.5rem;
-    color: hsla(197, 58%, 33%, 0.8);
-}
 #calculator{
     font-family: 'Times New Roman', Times, serif;
     max-width: 500px;
@@ -59,8 +52,14 @@ p{
 }
 button{
     font-size:3rem;position:absolute;text-align:center;width:26px;padding-top:5px;padding-right:5px;
-
+    color:aliceblue;
+    padding-left: 1rem;
+    font-style: normal;
+    font-style: italic;
     border: none;
     cursor: pointer;
     background-color: transparent;
+}
+button:hover{
+    color:aqua;
 }
