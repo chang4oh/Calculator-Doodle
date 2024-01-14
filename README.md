@@ -1,8 +1,9 @@
 # Calculator-Doodle
 Gamifying calculator with ChatGPT 4.0 generated space doodle background and FontAwesome space shuttle.
 
+Icon and Text combination from trials and error as well learning from stackoverflow forums
 Icon package is used from FontAwesome website
-Calculator template is from BroCode
+Calculator base is from BroCode
 Background image from Dall-E
 
 Version 1 (1/12/2024): 
