@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-image: url("images/background_space.png");
     background-repeat: no-repeat;
@@ -26,6 +31,10 @@ p{
 .fa-space-awesome:hover{
     color: hsla(197, 58%, 33%, 0.8);
 }
+.fa-space-awesome:active{
+    font-size: 3.5rem;
+    color: hsla(197, 58%, 33%, 0.8);
+}
 #calculator{
     font-family: 'Times New Roman', Times, serif;
     max-width: 500px;
@@ -51,6 +60,7 @@ p{
 button{
     width: 100px;
     height: 100px;
+    padding-bottom: 50px;
     border: none;
     font-size: 3rem;
     cursor: pointer;
