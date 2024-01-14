@@ -16,4 +16,3 @@ Relearned git and connected to git server using BASH terminal and VS code as bas
 Fundamental change from from grid-flex-box to absolute value and box alignment
 The challenge of placing value inside icon also effects css properties due to absolute position of icon
 added hover color of button (number)
-added hover color of icon (shuttle) simultaneously with hover color of button 
