@@ -3,6 +3,7 @@ Gamifying calculator with ChatGPT 4.0 generated space doodle background and Font
 
 Icon package is used from FontAwesome website
 Calculator template is from BroCode
+Background image from Dall-E
 
 Version 1: 
 Space themed calculator with shuttle keys
